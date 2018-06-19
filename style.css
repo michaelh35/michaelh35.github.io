@@ -1,0 +1,67 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.hero-image {
+	background-image: url('http://assets2.bigthink.com/system/idea_thumbnails/60118/size_1024/computer_code.jpg?1448159143');
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+}
+
+.header-text {
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(to bottom right, #ffcc00, #cca300);
+	font-size: 50px;
+}
+
+.header-text-smaller {
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(to bottom right, #ffcc00, #cca300);
+	font-size: 25px;
+}
+
+.text {
+	text-align: center;
+	padding: 0 25px 0 25px;
+}
+
+.custom-hr {
+	border: none;
+	border-top: medium solid yellow;
+	width: 50%;
+	padding: 0;
+	overflow: visible;
+}
+
+.custom-hr:after {
+	content: "♦";
+	color: yellow;
+	display: inline-block;
+	position: relative;
+	top: -0.7em;
+	font-size: 1.25em;
+	padding: 0 0.25em;
+	background-color: white;
+}
+
+.active a {
+	color: yellow !important;
+	font-weight: bold;
+}
